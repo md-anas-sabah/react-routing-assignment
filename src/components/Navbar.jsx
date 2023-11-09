@@ -13,7 +13,11 @@ function Navbar() {
           About
         </li>
       </NavLink>
-
+      <NavLink to="help">
+        <li className="mt-8 w-32 h-10  justify-center items-center rounded-md flex text-center bg-white text-black cursor-pointer">
+          Help
+        </li>
+      </NavLink>
       <NavLink to="login">
         <li className="mt-8 w-32 h-10  justify-center items-center rounded-md flex text-center bg-white text-black cursor-pointer">
           Login
